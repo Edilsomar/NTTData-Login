@@ -1,6 +1,5 @@
 var email = document.getElementById('email') 
 var password= document.getElementById('password')
-email.focus()
 
 function login(){
     if(email.value.length == 0 || password.value.length == 0){
